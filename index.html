@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtros con canvas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>Filtros con canvas</h1>
+        <canvas id="canvas">Tu navegador no soporta canvas</canvas>
+    <div>
+        Imagen: <select name="archivo" id="archivo">
+            <option value="">-archivo-</option>
+            <option value="cat-gfdb0a53cf_640.jpg">Gato1</option>
+            <option value="hd-wallpaper-g3e4e539a1_640.jpg">Gato2</option>
+            <option value="kitten-gfa4daacd6_640.jpg">Gato3</option>
+            <option value="kittens-g47876e528_640.jpg">Gato4</option>
+            <option value="kitty-gc4600b1ec_640.jpg">Gato5</option>
+        </select>
+        Filtro: <select name="filtro" id="filtro">
+            <option value="">-filtro-</option>
+            <option value="grises">Blanco y Negro</option>
+            <option value="negativo">Negativo</option>
+            <option value="aclarar">Aclarar</option>
+            <option value="oscurecer">Oscurecer</option>
+            <option value="flip">Flip Horizontal</option>
+        </select>
+    </div>
+        <script src="./script.js"></script>
+</body>
+</html>
