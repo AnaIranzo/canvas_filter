@@ -10,4 +10,4 @@ Selecciona una imagen y aplicale uno de los sigientes filtros
 -Oscurecer
 -Flip Horizontal
 
-<img src="./assets/5IPv.gif" alt="cats" />
+<img src="./assets/cat-g9932c27bb_640.png" alt="cats" />
